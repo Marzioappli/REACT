@@ -1,0 +1,272 @@
+body {
+  background: linear-gradient(90deg, #71e7ea 0%, #4676b7 100%);
+}
+
+
+.main-picture{
+  border-radius: 40%;
+  width: 280px;
+  height: 270px;
+  margin: center;
+  filter: drop-shadow(-10px -10px 50px #d0d2ee);
+}
+.main-text{
+  margin: center;
+  text-decoration:solid;
+  padding: 6px;
+  color: white;
+}
+.instagram-link {
+  display: inline-block;
+}
+.instagram-logo {
+  width: 30px;
+  height: 30px;
+}
+.instagram-logo:hover {
+  filter: brightness(50%);
+}
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+/* Navbar */
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 730px;
+  margin: 0 auto;
+  border-bottom: 3px solid #000000;
+}
+.navbar h1 {
+  color: #000000;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: 	#7a8b8b;
+}
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.links {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nabar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navabr.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.homepage {
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  font-size: 35px;
+  font-weight: 580;
+  color: #333;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #333;
+  padding: 15px 40px;
+  border-radius: 4px;
+  border: 3px solid #ffffff;
+  border-radius: 54px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #444;
+}
+.button-about {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #333;
+  padding: 15px 40px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-about:hover {
+  background-color: #444;
+}
+
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.about-page {
+  text-align: center;
+  padding: 1em;
+}
+
+.about-gc{
+  border-radius: 0%;
+  width: 300px;
+  height: 430px;
+  justify-content: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin: right;
+  border: 3px solid rgb(14, 6, 6);
+  box-shadow: 2px 2px 10px #ccc;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button-aboutme {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+  width: 83%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Contact us Page */
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #000000;
+}
+.zeilen {
+  margin-bottom: 17px;
+}
+.sendebox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+}
+.button-sending {
+  width: 100%;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 3px solid #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+h1{
+  text-align: center;
+}

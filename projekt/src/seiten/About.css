@@ -1,0 +1,105 @@
+/* About Me styling */
+.about{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    height: 100%;
+}
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.columm{
+    width: 100%;
+}
+.columm img{
+    background: #3c3c3c;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.Titel h2{
+    color: #18817e;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 27px;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    letter-spacing: .5px;
+    margin-bottom: 25px;
+}
+.about-info h3{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    line-height: 1.60;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+.about-info p{
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 30px;
+}
+.privat-infos{
+    position: relative;
+}
+.privat-infos p{
+    position: relative;
+    color: #18817e;
+    margin-bottom: 12px;
+    padding-left: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.privat-infos p span{
+    color:#3c3c3c;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.info-zeile{
+    padding:0 18px 30px 0;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.button-my{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all 0.5s;
+    color: white;
+    background-color: #18817e;
+    border: 3px solid #ffffff;
+}
+
+.button-my:hover{
+    color: #18817e;
+    background: white;
+}
+@media screen and (max-width:945px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-info{
+        padding-top: 2rem;
+    }
+    .columm{
+        width: 90%;
+    }
+    .columm img {
+        width: 80%;
+    }
+    .info-zeile{
+        padding: 0 18px 30px 0;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

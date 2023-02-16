@@ -1,0 +1,20 @@
+.back{
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size: 110px 200px;
+background-repeat: repeat-x;
+}
+
+/* Wetter Api*/
+.wetter{
+    display: block;
+    margin: auto;
+    filter: blur(4px);
+}
+h2{
+    text-align: center;
+}
+.p-wetter{
+    color: #18817e;
+}
